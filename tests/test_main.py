@@ -9,7 +9,7 @@ class TestMain(unittest.TestCase):
     def test_no_errors(self):
         main()
 
-    def test_only_numbers(self):
+    def test_main_output(self):
         @unittest.mock.patch('sys.stdout', new_callable=io.StringIO)
         def assert_stdout(expected_output: str, mock_stdout: io.StringIO):
             main()
