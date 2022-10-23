@@ -82,3 +82,13 @@ run.py can be invoked one of two ways, either through VSCODE's integrated debug 
 Future projects may provide a "frozen" version of the program, providing an executable package to the end user, which will bundle the interpreter with the executable as one set.
 
 This is a placeholder for the procedure.
+
+
+
+## **6. Testing Code Base**
+
+Follow the above procedures for initializing the virtual environment, then run:
+
+    ./test.sh
+
+
